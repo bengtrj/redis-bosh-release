@@ -1,0 +1,12 @@
+---
+name: redis
+
+templates:
+  ctl.erb: bin/ctl
+
+packages: []
+
+properties: 
+    redis.port:
+      description: Port that web_ui app listens on
+      default: 777
